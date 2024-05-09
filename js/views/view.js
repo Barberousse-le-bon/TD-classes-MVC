@@ -1,5 +1,5 @@
 import { Observer } from "../pattern/observer";
-import { Controller } from "../controllers/controller";
+
 
 
 export class View extends Observer{
