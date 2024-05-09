@@ -1,4 +1,6 @@
 import { Observer } from "../pattern/observer";
+import { Controller } from "../controllers/controller";
+
 
 export class View extends Observer{
 
@@ -21,6 +23,7 @@ export class View extends Observer{
     notify(){
 
         this.#controller.notify();
+        
         
 
     }
